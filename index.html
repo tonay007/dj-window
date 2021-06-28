@@ -18,7 +18,7 @@
         const body = document.querySelector(".body");
         body.addEventListener("mousemove", changeCol);
         function changeCol(){
-            let newVal = 100000 + Math.floor(Math.random()*10000);
+            let newVal = Math.floor(Math.random()*100000);
             newVal = "#" + newVal;
             body.style.backgroundColor = newVal;
         };
